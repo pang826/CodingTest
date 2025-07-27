@@ -8,7 +8,6 @@ public class Solution {
             if(n % i == 0)
                 ilist.Add(i);
         }
-        ilist.Sort();
         return ilist.ToArray();
     }
 }
